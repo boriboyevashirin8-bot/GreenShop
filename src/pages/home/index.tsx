@@ -1,6 +1,7 @@
 import Dashboard from "../../components/dashboard";
 import Header from "../../components/header";
 import Hero from "../../components/hero";
+import Footer from "../../components/footer";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Dashboard />
+      <Footer />
     </div>
   );
 };
