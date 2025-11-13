@@ -24,7 +24,6 @@ export interface ShowcaseCarouselType {
   description: string;
   buttonText: string;
   big_img_url: string;
-  small_img_url: string;
 }
 
 export interface DataType<T> {
@@ -67,4 +66,12 @@ export interface ProductType {
   title: string;
   views: number;
   _id: string;
+  count?: number;
+  userPrice?: number;
+}
+
+export interface PlantsType {
+  id: number;
+  title: string;
+  path: string;
 }

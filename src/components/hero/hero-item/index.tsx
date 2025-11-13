@@ -17,11 +17,6 @@ const HeroItem: FC<ShowcaseCarouselType> = (props) => {
         </button>
       </div>
       <div className="flex-[1] w-[50%] flex items-center justify-center relative max-md:hidden">
-        <img
-          className="absolute bottom-5 left-0"
-          src={props.small_img_url}
-          alt="small_img"
-        />
         <img src={props.big_img_url} alt="big_img" />
       </div>
     </div>
