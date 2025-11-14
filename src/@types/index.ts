@@ -24,6 +24,7 @@ export interface ShowcaseCarouselType {
   description: string;
   buttonText: string;
   big_img_url: string;
+  small_img_url: string;
 }
 
 export interface DataType<T> {
